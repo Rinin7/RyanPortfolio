@@ -1,0 +1,15 @@
+.projects {
+  background-color: black;
+  color: white;
+  height: 92vh;
+  margin: 0;
+  overflow-y: hidden;
+  padding: 150px 80px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin: 0;
+    font-size: 12rem;
+  }
+}

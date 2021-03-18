@@ -1,0 +1,107 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 80px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+
+  &__container {
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    color: white;
+  }
+
+  &__animation {
+    width: 20%;
+    font-size: 8rem;
+    font-family: "Russo";
+    color: white;
+  }
+
+  &__copyright {
+    width: 20%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+  }
+
+  &__dot {
+    padding: 0 5px 20px;
+    line-height: 5px;
+  }
+
+  &__dot1 {
+    animation: visibility 3s linear infinite;
+  }
+  @keyframes visibility {
+    0% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  &__dot2 {
+    animation: visibility2 3s linear infinite;
+  }
+  @keyframes visibility2 {
+    0% {
+      opacity: 0;
+    }
+    21% {
+      opacity: 0;
+    }
+    22% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  &__dot3 {
+    animation: visibility3 3s linear infinite;
+  }
+  @keyframes visibility3 {
+    0% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    44% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}

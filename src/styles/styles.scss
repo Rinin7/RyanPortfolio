@@ -1,0 +1,28 @@
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/typography";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir", "Roboto", sans-serif;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: aqua;
+}
