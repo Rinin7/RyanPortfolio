@@ -1,14 +1,14 @@
 import React from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
+import RD from "../../assets/logos/Logo.png";
 
 function Header() {
   return (
     <header className="header">
       <Link to="/">
         <div className="header__logo-container">
-          <h2 className="header__logo">Ry</h2>
-          <h2 className="header__logo">Doob</h2>
+          <img src={RD} className="header__logo" />
         </div>
       </Link>
       <div className="header__nav">
